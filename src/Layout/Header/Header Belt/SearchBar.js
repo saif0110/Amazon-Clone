@@ -82,7 +82,7 @@ const SearchBar = () => {
       }
       disableUnderline
       onClick={()=>{setFlag(true)}}
-      sx={{ width: "480px",
+      sx={{ width: "36vw",
       height: "40px", 
       bgcolor: "white", 
       borderRadius: "5px",

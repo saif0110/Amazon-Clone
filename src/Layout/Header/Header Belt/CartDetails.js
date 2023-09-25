@@ -24,7 +24,7 @@ const CartDetails = () => {
     return (
         <>
             <Button variant='contained' color='primary'
-                sx={buttonStyle}
+                sx={{...buttonStyle, width: "7vw"}}
                 onClick={() => { navigate('/cart-page') }}>
                 <Box sx={{
                     textAlign: "left",
